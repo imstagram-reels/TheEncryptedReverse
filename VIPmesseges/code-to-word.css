@@ -120,8 +120,9 @@ button {
     position: absolute;
     left: 15px;
     top: 10px;
-    font-size: 20px;
-    word-spacing: 1px;
+    font-size: 17px;
+    word-spacing: 0;
+    letter-spacing: 0;
 }
 
 .input::-ms-value {
