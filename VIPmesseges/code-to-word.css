@@ -60,7 +60,7 @@ html {background-color: #f3f3f3;}
 .result
   {
     /* position: absolute; */
-    width: 100%;
+    width: calc(100% - 13px);
     height: 330px;
     margin: 0;
     resize: none;
@@ -68,13 +68,15 @@ html {background-color: #f3f3f3;}
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     font-family: "Cairo", sans-serif;
     /* text-align: 100px; */
-    word-spacing: 5px;
-    letter-spacing: 6px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
     /* opacity: 60%; */
     color: rgb(145, 145, 145);
     text-align: justify;
     overflow: auto;
     font-size: 15px;
+    padding-inline-start: 15px;
+    padding-top: 10px;
 
 }
 
@@ -95,7 +97,6 @@ html {background-color: #f3f3f3;}
 .result::-webkit-scrollbar-track {
   background-color: rgba(255, 0, 0, 0);
 }
-
 
 .input-div{
     position: relative;
@@ -120,9 +121,9 @@ button {
     position: absolute;
     left: 15px;
     top: 10px;
-    font-size: 17px;
-    word-spacing: 0;
-    letter-spacing: 0;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .input::-ms-value {
